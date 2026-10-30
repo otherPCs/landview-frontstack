@@ -14,6 +14,3 @@ flutter build web --release \
   --dart-define=DEMO=false \
   --dart-define=API_URL=https://landview-api.onrender.com \
   --base-href="/"
-
-echo "Fazendo o deploy..."
-npx wrangler deploy
