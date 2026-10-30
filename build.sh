@@ -11,4 +11,6 @@ flutter build web --release \
   --dart-define=API_URL=https://landview-api.onrender.com \
   --base-href "/"
 
-npx wrangler deploy --assets build/web
+npx wrangler deploy build/web \
+  --name landview-frontstack \
+  --compatibility-date 2026-10-23
