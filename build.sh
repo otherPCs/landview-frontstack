@@ -8,4 +8,5 @@ flutter config --enable-web
 flutter pub get
 flutter build web --release \
   --dart-define=DEMO=false \
-  --dart-define=API_URL=https://landview-api.onrender.com
+  --dart-define=API_URL=https://landview-api.onrender.com \
+  --base-href "/"
